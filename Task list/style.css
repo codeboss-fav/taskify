@@ -1,0 +1,68 @@
+body {
+    background-color: #17191c;
+    color: #fff;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #17191c;
+    background-clip: border-box;
+    border: 3px solid #1d78ff;
+    border-radius: .5rem;
+}
+.topp {
+    padding: 2em 0 1em;
+    position: relative;
+    font-size: 3em;
+    font-weight: bold;
+}
+.grad {
+    background: -webkit-linear-gradient(#1d78ff, #541fa5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-control {
+    color: #495057;
+    background-color: #17191c;
+    background-clip: padding-box;
+    border: none;
+    border-bottom: 2px solid #e7e7ebe1;
+    border-radius: 0px;
+}
+.btn {
+    background: linear-gradient(#1d78ff, #541fa5);
+    color: #fff;
+    margin-bottom: 1em;
+}
+.add {
+    padding: 1em;
+    background: linear-gradient(#1d78ff, rgb(84, 31, 165));
+    border-radius: 50px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.clear {
+    padding: 1em;
+    background: linear-gradient(#1d78ff, rgb(84, 31, 165));
+    border-radius: 50px;
+    position: relative;
+    top: 1em;
+}
+element {
+    padding: 1em;
+    color: #fff;
+}
+form {
+    position: relative;
+    top: 1em;
+}
+.list {
+    position: relative;
+    top: 2em;
+    padding-bottom: 3em;
+}
