@@ -29,7 +29,7 @@ function getTasks(){
         li.appendChild(document.createTextNode(task));
 
         const link = document.createElement('a')
-        link.className = 'delete-item secondary-content';
+        link.className = 'delete-item secondary-content float-right';
         link.innerHTML = '<i class = "fa fa-remove"></i>';
 
         li.appendChild(link);
